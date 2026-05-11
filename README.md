@@ -47,13 +47,13 @@ The project uses Flutter's built-in `setState` for lightweight local state manag
 1. Clone the repository
 
 ```bash
-git clone <>
+git clone <https://github.com/Filx2001/vora-climate-ui.git>
 ```
 
 2. Navigate to the project folder
 
 ```bash
-cd vora_climate_ui
+cd vora_livingroom
 ```
 
 3. Install dependencies
