@@ -47,7 +47,7 @@ class _ClimateScreenState extends State<ClimateScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0B0D13),
+      backgroundColor: AppColors.background,
       body: SafeArea(
         child: Stack(
           children: [
@@ -131,7 +131,7 @@ class _ClimateScreenState extends State<ClimateScreen> {
               Positioned.fill(
                 child: IgnorePointer(
                   child: Container(
-                    color: Colors.black.withOpacity(0.25),
+                    color: AppColors.overlay,
                   ),
                 ),
               ),
@@ -147,8 +147,8 @@ class _ClimateScreenState extends State<ClimateScreen> {
         Expanded(
           child: StatCard(
             icon: Icons.thermostat_outlined,
-            iconColor: const Color(0xFFE05555),
-            iconBg: const Color(0xFFE05555).withOpacity(0.15),
+            iconColor: AppColors.danger,
+            iconBg: AppColors.danger.withOpacity(0.15),
             label: 'Temperature',
             value: '24.05',
             unit: '°C',
@@ -158,8 +158,8 @@ class _ClimateScreenState extends State<ClimateScreen> {
         Expanded(
           child: StatCard(
             icon: Icons.water_drop_outlined,
-            iconColor: const Color(0xFF4A9FD4),
-            iconBg: const Color(0xFF4A9FD4).withOpacity(0.15),
+            iconColor: AppColors.humidity,
+            iconBg: AppColors.humidity.withOpacity(0.15),
             label: 'Humidity',
             value: '60',
             unit: '%',

@@ -12,4 +12,10 @@ class AppColors {
   static const textPrimary = Color(0xFFF0F2F5);
 
   static const textSecondary = Color(0xFF6B7588);
+
+  static const danger = Color(0xFFE05555);
+
+  static const humidity = Color(0xFF4A9FD4);
+
+  static Color? get overlay => null;
 }
