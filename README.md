@@ -47,7 +47,7 @@ The project uses Flutter's built-in `setState` for lightweight local state manag
 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Filx2001/vora-climate-ui.git>
+git clone https://github.com/Filx2001/vora-climate-ui.git
 ```
 
 2. Navigate to the project folder
@@ -77,6 +77,10 @@ The UI was designed with a modern smart-home inspired aesthetic using:
 - Smooth opacity transitions
 - Interactive controls
 - Modular reusable widgets
+
+## Figma Design
+
+[Figma Design File](https://www.figma.com/design/utuj7tuigJIopOlezSppp2/Vora?node-id=0-1&t=7nJSezolhGXL3z1a-1)
 
 ## Author
 
